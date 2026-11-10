@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rule-Based Chatbot</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Rule-Based Chatbot!</h1>
+        <p>A chatbot that responds to user input using predefined rules.</p>
+        <hr>
+    </header>
+
+    <main>
+        <div>
+            <h2>About My Chatbot</h2>
+            <p>This is a rule-based chatbot. It responds to messages by looking for keywords and phrases entered by the user.</p>
+            <p>Start by telling the chatbot your name. You can then ask questions about its capabilities and programming.</p>
+        </div>
+        <hr>
+        <div>
+            <h2>Chat With the Bot</h2>
+            <h3>Chat Window</h3>
+            <div aria-live="polite">
+                <p><b>Chatbot:</b></p>
+                <p>Hello. I am a rule-based chatbot. What is your name?</p>
+            </div>
+            <form name="chatForm">
+                <input type="text" name="userInput" placeholder="Type your message here..." required>
+                <button type="submit">Send</button>
+            </form>
+
+            <button type="button" name="restartConversation">
+                Restart Conversation
+            </button>
+        </div>
+        <hr>
+        <div>
+            <h2>Example questions</h2>
+            <ul>
+                <li>What can you do?</li>
+                <li>How were you programmed?</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>Rule-Based Chatbot - CSE2210 Final Project</p>
+    </footer>
+</body>
+</html>
