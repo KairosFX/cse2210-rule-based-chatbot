@@ -1,0 +1,144 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(240, 244, 250);
+    color:rgb(40, 50, 65);
+    line-height:1.6;
+}
+
+header {
+    background-color:rgb(29, 43, 76);
+    color:white;
+    text-align:center;
+    padding:35px 20px;
+}
+
+header h1 {
+    margin:0;
+    font-size:32px;
+}
+
+header p {
+    color:rgb(220, 225, 240);
+    margin-top:10px;
+}
+
+header hr {
+    border:none;
+    border-top:1px solid rgb(100, 115, 145);
+    margin-top:25px;
+}
+
+main {
+    width:85%;
+    max-width:900px;
+    margin:30px auto;
+}
+
+main > div {
+    background-color:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+main h2 {
+    color:rgb(29, 68, 125);
+    margin-top:0;
+}
+
+main h3 {
+    color:rgb(29, 68, 125);
+    margin-top:0;
+}
+
+hr {
+    border:none;
+    border-top:1px solid rgb(100, 115, 145);
+    margin:25px 0;
+}
+
+[aria-live="polite"] {
+    background-color:rgb(245, 247, 252);
+    border:1px solid rgb(220, 225, 235);
+    border-radius:10px;
+    padding: 18px;
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+
+form[name="chatForm"] {
+    flex: 1;
+    padding: 13px;
+    border: 1px solid rgb(190, 200, 215);
+    border-radius: 7px;
+    font-size: 15px;
+    outline: 15px;
+}
+
+input[name="userInput"] {
+    border-color: rgb(45, 105, 190);
+}
+
+button[name=clearChat] {
+    background-color: rgb(95, 105, 120);
+    margin-top: 15px;
+}
+
+button[name=clearChat]:hover {
+    background-color: rgb(65, 75, 90);
+}
+
+button[name="prompt"] {
+    margin: 5px 5px 5px 0;
+    background-color: rgb(230, 238, 250);
+    color: rgb(35, 75, 130);
+    border: 1px solid rgb(190, 200, 215);
+}
+
+button[name="prompt"]:hover {
+    background-color: rgb(205, 220, 245);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: rgb(29, 68, 125);
+    color: white;
+    padding: 13px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid rgb(220, 225, 235);
+}
+
+tr:hover {
+    background-color: rgb(245, 247, 252);
+}
+
+footer {
+    background-color: rgb(29, 43, 76);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer hr {
+    border-top: 1px solid rgb(100, 115, 145);
+}
+
+footer p {
+    margin-bottom: 0;
+}
